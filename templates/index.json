@@ -976,7 +976,6 @@
         "67ab00cc-103e-4796-b389-f38ede9361e0",
         "image_Ke6Lfm"
       ],
-      "disabled": true,
       "settings": {
         "container": "container",
         "padding_full_width": 0,
@@ -1213,7 +1212,6 @@
         "image_qerj6Y",
         "image_nqhLAz"
       ],
-      "disabled": true,
       "settings": {
         "container": "1320",
         "padding_full_width": 0,
@@ -1301,6 +1299,7 @@
       "block_order": [
         "heading_7qjWKi"
       ],
+      "disabled": true,
       "settings": {
         "container": "container",
         "padding_full_width": 0,
@@ -1348,6 +1347,7 @@
       "block_order": [
         "heading_qzJLY9"
       ],
+      "disabled": true,
       "settings": {
         "container": "container",
         "padding_full_width": 0,
@@ -1366,6 +1366,7 @@
     },
     "c455605c-cc7d-499c-8678-8a3e269406c8": {
       "type": "video-block",
+      "disabled": true,
       "settings": {
         "container": "container",
         "mg_top_desktop": 25,
