@@ -48,9 +48,28 @@
 
 <script>
     window.lazySizesConfig = window.lazySizesConfig || {};
-    lazySizesConfig.loadMode = 1;
+    window.lazySizesConfig.loadMode = 1;
     window.lazySizesConfig.init = false;
-    lazySizes.init();
+    window.lazySizesConfig.preloadAfterLoad = false;
+    window.lazySizesConfig.expFactor = 1.2;
+    window.lazySizesConfig.hFac = 0.7;
+    window.lazySizesConfig.throttleDelay = 180;
+    window.lazySizesConfig.ricTimeout = 200;
+
+    const initLazySizes = () => {
+        if (!window.lazySizes || window.lazySizes._niimbotInitialized) return;
+
+        window.lazySizes._niimbotInitialized = true;
+        window.lazySizes.init();
+    };
+
+    if ('requestIdleCallback' in window) {
+        requestIdleCallback(initLazySizes, { timeout: 700 });
+    } else {
+        window.addEventListener('load', () => {
+            window.requestAnimationFrame(initLazySizes);
+        }, { once: true });
+    }
 
     window.rtl_slick = {{ enable_iso_rtl }};
     window.mobile_menu = '{{ settings.mobile_menu }}';
