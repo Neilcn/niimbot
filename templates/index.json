@@ -581,7 +581,6 @@
         "857bc4e4-d47a-4050-a65c-f6c811a3e759",
         "eb881620-018e-4971-95e9-7e0a015dcd16"
       ],
-      "disabled": true,
       "settings": {
         "container": "fullwidth",
         "padding_full_width": 0,
@@ -977,6 +976,7 @@
         "67ab00cc-103e-4796-b389-f38ede9361e0",
         "image_Ke6Lfm"
       ],
+      "disabled": true,
       "settings": {
         "container": "container",
         "padding_full_width": 0,
@@ -1213,6 +1213,7 @@
         "image_qerj6Y",
         "image_nqhLAz"
       ],
+      "disabled": true,
       "settings": {
         "container": "1320",
         "padding_full_width": 0,
