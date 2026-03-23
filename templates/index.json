@@ -1495,6 +1495,7 @@
       "block_order": [
         "image_nTfhAN"
       ],
+      "disabled": true,
       "name": "t:sections.slide-show.presets.name",
       "settings": {
         "container": "fullwidth",
