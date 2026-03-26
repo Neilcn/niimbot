@@ -1299,7 +1299,6 @@
       "block_order": [
         "heading_7qjWKi"
       ],
-      "disabled": true,
       "settings": {
         "container": "container",
         "padding_full_width": 0,
@@ -1347,7 +1346,6 @@
       "block_order": [
         "heading_qzJLY9"
       ],
-      "disabled": true,
       "settings": {
         "container": "container",
         "padding_full_width": 0,
@@ -1366,7 +1364,6 @@
     },
     "c455605c-cc7d-499c-8678-8a3e269406c8": {
       "type": "video-block",
-      "disabled": true,
       "settings": {
         "container": "container",
         "mg_top_desktop": 25,
@@ -1495,7 +1492,6 @@
       "block_order": [
         "image_nTfhAN"
       ],
-      "disabled": true,
       "name": "t:sections.slide-show.presets.name",
       "settings": {
         "container": "fullwidth",
